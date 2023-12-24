@@ -13,6 +13,7 @@ public class StringException extends Exception{
 			for(int i=0;i<str.length();i++) {
 				if(isVowel(str.charAt(i))) {
 					flag=true;
+					break;
 				}
 			}
 			if(!flag) {
